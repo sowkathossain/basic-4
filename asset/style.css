@@ -8,15 +8,48 @@
 }
 
 body{
+    width:1200px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    margin-right: 15px;
+}
+.menu li a{
+    padding: 10px 15px;
+    background-color: chartreuse;
+    text-decoration: none;
+    display: inline-block;
 }
 h1{
     color: blue;
     font-family: 'Cinzel', serif;
 }
+.container{
+    margin: 0 auto;
+}
 p{
     background-color: beige;
     color: darkgreen;
     font-family: 'Rustic Farmhouse', cursive;
+}
+
+.row{
+    display: flex;
+   background-color: burlywood;
+}
+
+.column{
+   border: 1px solid #ddd;
+   padding: 5px;
+}
+.column p{
+    padding: 5px;
 }
