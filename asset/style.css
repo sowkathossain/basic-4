@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Rustic Farmhouse';
+    src: url('../fonts/RusticFarmhouseRegular.woff2') format('woff2'),
+        url('../fonts/RusticFarmhouseRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+}
+h1{
+    color: blue;
+    font-family: 'Cinzel', serif;
+}
+p{
+    background-color: beige;
+    color: darkgreen;
+    font-family: 'Rustic Farmhouse', cursive;
+}
